@@ -41,5 +41,5 @@ terraform.rc
 
 
 .terraform.lock.hcl
-bastion-key.pem
+*.pem
 
