@@ -52,3 +52,16 @@ variable "sg_app_id" {
 	description = "ID du Security Group App (depuis phase2)"
 	type        = string
 }
+
+variable "rds_endpoint" {
+	description = "Endpoint RDS depuis phase4"
+	type        = string
+	default     = ""
+}
+
+variable "db_password" {
+	description = "Mot de passe base de données RDS"
+	type        = string
+	default     = "EcoShop2024!"
+	sensitive   = true
+}
